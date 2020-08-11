@@ -61,6 +61,10 @@ form {
     cursor: pointer;
 }
 
+.tab-heading p.selected {
+    color: black;
+}
+
 .tab-content p {
     font-size: 1.5rem;
     color: black;
