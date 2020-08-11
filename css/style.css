@@ -2,6 +2,11 @@ body {
     background-color: #2A80B9;
 }
 
+:root {
+    --grey: #CCCCCC;
+    font-size: 14px;
+}
+
 .wrapper {
     margin: 10vh auto;
     background-color: white;
@@ -11,6 +16,11 @@ body {
     padding: 4rem;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
 .form-control {
     display: flex;
 }
@@ -18,7 +28,41 @@ body {
 .form-control input {
     outline: none;
     border: none;
-    border-bottom: 1px solid;
+    border-bottom: 5px solid var(--grey);
     flex-grow: 1;
+    margin-right: 3rem;
+    font-size: 2rem;
+}
+
+.form-control button {
+    font-size: 2rem;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    background-color: #F1F1F1;
+}
+
+.tab-index {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.tab-heading {
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.tab-heading p {
+    font-size: 2rem;
     margin-right: 2rem;
+    text-transform: uppercase;
+    color: var(--grey);
+    cursor: pointer;
+}
+
+.tab-content p {
+    font-size: 1.5rem;
+    color: black;
+    text-transform: capitalize;
 }
