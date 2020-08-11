@@ -61,12 +61,22 @@ form {
     cursor: pointer;
 }
 
-.tab-heading p.selected {
-    color: black;
+.tab-content {
+    display: flex;
 }
 
 .tab-content p {
     font-size: 1.5rem;
     color: black;
     text-transform: capitalize;
+    padding-right: .4rem;
+}
+
+.tab-content span {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.tab-heading p.active {
+    color: black;
 }
