@@ -1,4 +1,4 @@
-# gearVR
+# progressNavigation
 **An implementation of progress navijation UI with HTML/CSS/ Vanilla JS**
 ## Preview
 [demo]()
