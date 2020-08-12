@@ -12,7 +12,7 @@ Clone or download this repository and run with a local server of open `index.htm
 ## Tech/framework used
 - HTML
 - CSS
--Javascript
+- Vanilla JS
 
 ## Contact
 If you want to contact me you can reach me at aishat@codevillage.ng or aishatabdulfatah81@gmail.com
